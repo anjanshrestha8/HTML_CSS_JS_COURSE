@@ -1,11 +1,54 @@
 <!DoCTYPE html>
 <html>
     <head>
-        <title>
-
-        </title>
+        <title>This is the first class. </title>
     </head>
-    <body>
-        
+    <body bgcolor="PURPLE" text ="pink">
+
+               <h1><u>This is the heading one.</u><h1> 
+                <h2>This is heading two.</h2>
+                <h3>This is heading three.</h3>
+                <h4>This is heading four.</h4>
+                <h5>This is heading five.</h5>
+                <h6>This is heading six.</h6> 
+                
+                
+                <p>
+                    Code settings:
+
+                    html.format.wrapLineLength: Maximum amount of characters per line.
+                    html.format.unformatted: List of tags that shouldn't be reformatted.
+                    html.format.contentUnformatted: List of tags, comma separated, where the content shouldn't be reformatted.
+                    html.format.extraLiners: List of tags that should have an extra newline before them.
+                    html.format.preserveNewLines: Whether existing line breaks before elements should be preserved.
+                    html.format.maxPreserveNewLines: Maximum number of line breaks to be preserved in one chunk.
+                    html.format.indentInnerHtml: Indent <head> and <body> sections.
+                    html.format.wrapAttributes: Wrapping strategy for attributes:
+                    auto: Wrap when the line length is exceeded
+                    force: Wrap all attributes, except first<br>
+                    force-aligned: Wrap all attributes, except first, and align attributes
+                    force-expand-multiline: Wrap all attributes
+                    aligned-multiple: Wrap when line &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  length is exceeded, align attributes vertically
+                    preserve: Preserve wrapping of attributes
+                    preserve-aligned: Preserve wrapping of attributes but align
+                    html.format.wrapAttributesIndentSize: Alignment size when using force aligned and aligned multiple in html.format.wrapAttributes or null to use the default indent size.
+                    html.format.templating: Honor django, erb, handlebars and php templating language tags.
+                    html.format.unformattedContentDelimiter: Keep text content together between this string.
+                    Tip: The formatter doesn't format the tags listed in the html.format.unformatted and html.format.contentUnformatted settings. Embedded JavaScript is formatted unless 'script' tags are excluded.
+                    
+                    <pre>The Marketplace has several.           alternative formatters to choose from. </pre>     
+                    If you want to use a different formatter, define "html.format.enable": false in your settings to turn off the built-in formatter.
+                    
+                    
+                </p>
+                <ul>
+                    <li><b>Home</b></li>
+                    <li>Profile</li>
+                    <li>About</li>
+                    <li>Email</li>
+                    <li>Address</li>
+                </ul>
+                
+                <a href ="https://www.w3schools.com/tags/tag_button.asp"><button type="button">Click Me To Download My CV!</button></a> 
     </body>
 </html>
