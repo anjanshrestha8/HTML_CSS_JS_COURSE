@@ -1,0 +1,4 @@
+style="color:red"
+style="text-align: center"
+<span> le part part lai style use garna milxa
+         for eg : <span style="color:blueviolet"> this is </span>the example of division tag

@@ -2,3 +2,17 @@ Types of lists
 a. unorder
 b. define list
 c. order list
+
+TAGS
+
+Br = break line 
+P = paragraph
+H1-6= Heading
+Pre = same as it 
+&nbsp = line ko bich ma space lerauxa
+b = bold
+i = itallic
+u = underline
+ul = unlisted
+li = listed
+a href = link halna kam lagxa
