@@ -3,3 +3,8 @@ sytnax
 <a href ="https://www.youtube.com/@internetthings8903" target ="_blank"> My Second Youtube Channel</a>
 
         where target helps to open the link in new browser
+
+
+<base href="https://www.youtube.com/">
+
+        base tag is made home page so it attribute can also read it
