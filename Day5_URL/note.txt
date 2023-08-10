@@ -1,0 +1,5 @@
+sytnax
+
+<a href ="https://www.youtube.com/@internetthings8903" target ="_blank"> My Second Youtube Channel</a>
+
+        where target helps to open the link in new browser
