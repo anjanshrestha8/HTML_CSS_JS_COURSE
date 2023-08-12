@@ -31,7 +31,7 @@
                 position: absolute;
                 border-style: solid;
                 border-color: white;
-           
+                
                 border-width: 0.1em o.1em;
                 border-radius: 50%;
                 
@@ -40,9 +40,9 @@
             .earth{
                 top: 5em;
                 left: 5em;
-                width: 30em;
+                width: 30em; 
                 height: 30em;
-                animation: orbit 50.5s linear infinite;
+                animation: orbit 36.5s linear infinite;
             }
             .moon{
                 top: 0;
@@ -74,6 +74,11 @@
                 background-color: silver;
 
 
+            }
+            @keyframes orbit{
+                to{
+                    transform: rotate(360 deg);
+                }
             }
 
         </style>
