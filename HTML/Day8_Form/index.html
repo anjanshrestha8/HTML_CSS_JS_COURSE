@@ -3,7 +3,7 @@
     <head>
         <title>Forms</title>
     </head>
-    <body>
+    <body bgcolor="aqua">
         <form>
             <label>Name: &nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="text"><br><br>
             <label>Password:&nbsp</label><input type="text"><br><br>
@@ -16,13 +16,18 @@
 
             <label>Country:</label>
             <select name="Country" id="Country">
+               <option hidden disabled selcted value></option>
                 <option value="Nepal">Nepal</option>
                 <option value="India">India</option>
                 <option value="Pakistan">Pakistan</option>
                 <option value="Bhutan">Bhutan</option></select><br><br>
             
-            <label>Gmail:</label><input type="email">
-
+            <label>Gmail:</label><input type="email"><br><br>
+            <label>DOB:</label><input type="date"><br><br>
+            <input type="submit" style="background-color: rgb(21, 239, 21);">
+            <input type="reset" style="background-color: rgb(244, 59, 59)">
+            <input type="button" value="upload">
+            <button >Download</button>
 
         </form>
 
