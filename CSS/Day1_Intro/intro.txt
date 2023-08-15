@@ -1,0 +1,6 @@
+    Types of CSS
+
+
+1. Inline CSS. <P style ="color:red"
+2. Internal CSS. <head> <style> </style> </head>
+3. External CSS
