@@ -8,5 +8,9 @@ p{
     text-decoration:line-through;
     letter-spacing: 1px;
     word-spacing: 10px;
-    vertical-align: baseline; /* this help to align image with text*/
+}
+
+img
+{
+    vertical-align: sub; /* this help to align image with text*/
 } 
