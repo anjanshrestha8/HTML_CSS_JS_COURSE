@@ -1,0 +1,8 @@
+two ways to give style to same attributes
+
+1. Class 
+2. Id
+3. Child selection. (symbol >)
+4. Decendent selection(symbol spcae)
+5. Adjecent selection(symbol +)
+6. Universal selection(symbol *)

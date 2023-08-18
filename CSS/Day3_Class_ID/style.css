@@ -1,3 +1,4 @@
+/* Id code */
 #f{
     color: red;
     font-family: 'Times New Roman', Times, serif;
@@ -17,9 +18,10 @@
     
 
 }
+/* class code  */
 
 .f{
-    color: red;
+    color: rgb(8, 241, 160);
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bold;
@@ -30,10 +32,49 @@
     word-spacing: 10px;
 }
 
+
 .s{
-    color: rgb(64, 0, 255);
+    color: rgb(231, 16, 149);
     font-size: 100px;
     text-decoration: underline;
     
 
+}
+/* child selection code */
+
+ul>li{
+    color: rgb(8, 241, 160);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+
+/* decendent selection code */
+ul li{
+    color: rgb(241, 202, 8);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+/* Adjecent selection code  */
+h1 + p{
+    color: rgb(237, 8, 241);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 10px;
 }
