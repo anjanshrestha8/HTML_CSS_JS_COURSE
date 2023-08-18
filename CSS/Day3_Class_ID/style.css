@@ -17,3 +17,23 @@
     
 
 }
+
+.f{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+
+.s{
+    color: rgb(64, 0, 255);
+    font-size: 100px;
+    text-decoration: underline;
+    
+
+}
