@@ -1,4 +1,5 @@
-/* Id code */
+/* Id code
+
 #f{
     color: red;
     font-family: 'Times New Roman', Times, serif;
@@ -69,6 +70,32 @@ ul li{
 /* Adjecent selection code  */
 h1 + p{
     color: rgb(237, 8, 241);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+ }  
+
+/*
+//Universal selection code 
+*{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    text-decoration:line-through;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+*/
+h1,p{
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bold;
