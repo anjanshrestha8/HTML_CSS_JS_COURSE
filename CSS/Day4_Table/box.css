@@ -16,16 +16,7 @@
     display: inline-flex;
 
 }
-.box1{
-    border:5px solid blue;
-    padding: 30px ;
-    overflow: scroll;
-    width: 200px;
-    height: 200px;
-    margin: 60px;
-    display: inline-flex;
 
-}
 
 .container{
     display: flex;
