@@ -4,6 +4,7 @@ ul{
     /* list-style: upper-roman; */
     /* list-style: disc; */
     /* list-style:devical; */
+    list-style-position: inside;
 
 }
 li.a{
