@@ -1,0 +1,18 @@
+table{
+    border-style: solid;
+    border-width: 1px;
+    background-color:gray ;
+    font-style: italic;
+    color: aliceblue;
+    border-collapse: collapse;
+
+
+}
+tr,td{
+    border: 1px solid red;
+    padding: 10,20,30,40;
+}
+/* style to every cell in table */
+td.a{
+    background-color: rgb(255, 115, 0);
+}
