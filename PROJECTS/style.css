@@ -1,0 +1,14 @@
+body{
+    background-color: beige;
+}
+h1{
+    font-size: 300;
+    text-align: center;
+    color: red;
+}
+.slider{
+    height: 500px;
+    width: 500px;
+    background-image: url(https://i.pinimg.com/originals/c6/4e/ac/c64eac3cb6b4a514de486974fe1dc5b9.jpg);
+    position: absolute;
+}
