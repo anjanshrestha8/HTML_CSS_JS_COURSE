@@ -1,0 +1,36 @@
+body{
+    background-color: darksalmon;
+    display: grid;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+.slide-container{
+    display: flex;
+    width: 500px;
+    animation: slide 10s infinite linear;
+}
+@keyframes slide{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-200px);
+    }
+}
+.slide-image{
+    padding: 20px;
+    perspective: 100px;
+}
+img{
+    width: 500px;
+    transition: transform 1s;
+}
+img:hover{
+    transform: translateZ(20px);
+
+}
