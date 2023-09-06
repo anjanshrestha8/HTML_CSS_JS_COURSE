@@ -1,0 +1,11 @@
+<script src="script.js"></script> : linking with js files
+
+
+
+variable:  1. local
+           2. global
+
+Data Types:
+            1. Numbers
+            2.Boolean
+            3.Strings
