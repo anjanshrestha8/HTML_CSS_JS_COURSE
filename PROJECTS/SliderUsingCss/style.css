@@ -9,7 +9,7 @@ body{
     display: grid;
     place-items: center;
 }
-.slide-container{
+.slide_container{
     display: flex;
     width: 500px;
     animation: slide 10s infinite linear;
@@ -22,7 +22,7 @@ body{
         transform: translate(-200px);
     }
 }
-.slide-image{
+.slide_image{
     padding: 20px;
     perspective: 100px;
 }
