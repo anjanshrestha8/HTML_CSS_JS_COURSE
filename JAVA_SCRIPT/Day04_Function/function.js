@@ -3,4 +3,6 @@ function addition(){
     var b = document.getElementById("second").value;
     a=parseInt(a);
     b=parseInt(b);
+    var sum =a+b;
+    document.getElementById("result").innerHTML=a;
 }
