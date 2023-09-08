@@ -4,6 +4,8 @@ function addition(){
     a=parseInt(a);
     b=parseInt(b);
     var sum =a+b;
-    document.write(sum);
-    document.getElementById("result").value=result;
+    // document.write(sum);
+    // document.getElementById("result").value=sum;
+    document.getElementById("para").innerHTML=sum;
+
 }
