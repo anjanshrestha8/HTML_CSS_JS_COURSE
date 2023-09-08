@@ -1,0 +1,13 @@
+Syntax:
+
+
+    function function name(){
+        variable declearation;
+        statement 1;
+        .
+        .
+        .
+        .
+        statement n;
+        return value;
+    }
