@@ -1,6 +1,10 @@
-p{
+h1{
     font-size: 50px;
     background-color: beige;
+}
+p{
+    font-size: 25px;
+    color: rgb(253, 152, 0);
 }
 p.cal{
     font-size: 30px;
@@ -21,7 +25,7 @@ label.second{
     background-color: rgb(222, 225, 28);
 }
 .button{
-    background-color: rgb(255, 47, 47);
+    background-color: rgb(25, 252, 0);
    
 }
 body{
