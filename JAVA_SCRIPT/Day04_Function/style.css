@@ -1,21 +1,22 @@
 h1{
     font-size: 50px;
-    background-color: beige;
+    color: white;
 }
 p{
     font-size: 25px;
-    color: rgb(253, 152, 0);
+    color: white;
+    
 }
 p.cal{
     font-size: 30px;
-    background-color: rgb(224, 226, 226);
-    color:red;
+    background-color: brown;
+    color: whit;
     text-align: center;
     text-decoration:underline;
 }
-p.math{
+.math{
     font-size: 20px;
-    background-color: aliceblue;
+    color: white;
     text-align: center;
 }
 label.first{
@@ -29,7 +30,7 @@ label.second{
    
 }
 body{
-    background-color: azure;
+    background-color: black
 }
 input{
     background-color:rgb(237, 225, 225);
