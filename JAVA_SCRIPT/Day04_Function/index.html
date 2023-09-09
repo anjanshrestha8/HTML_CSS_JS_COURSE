@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>This function session.</p>
+    <B><U><p>This function session.</p></U></B>
 
     <br>
     <br>
     <p class="cal">Calculator</p>
     <p class="math">Addition Code</p>
 
-    <label>First number: </label><input type="text" id="first"><br><br>
-    <label>Second number: </label><input type="text" id="second"><br><br>
-    <input type="button" value="ADD" class="sum" onclick="addition()"><br><br>
-    <label>Result: </label><input type="text" id="result" readonly><br><br>
+    <label class="first">First number: </label><input type="text" id="first"><br><br>
+    <label class="second">Second number: </label><input type="text" id="second"><br><br>
+    <input type="button" value="ADDITION" class="button" onclick="addition()"><br><br>
+    <label>Result: </label><input type="text" id="add" readonly><br><br>
 
     <!-- <p id="para"></p> -->
 
 
     <p class="math">Subtraction Code</p>
 
-    <label>First number: </label><input type="text" id="first"><br><br>
-    <label>Second number: </label><input type="text" id="second"><br><br>
-    <input type="button" value="SUB" class="sum" onclick="subtraction()"><br><br>
+    <input type="button" value="SUBTRACTION" class="button" onclick="subtraction()"><br><br>
     <label>Result: </label><input type="text" id="sub" readonly><br><br>
 
-    <!-- <p id="para"></p> -->
+    <p class="math">Division Code</p>
+
+    <input type="button" value="DIVISION" class="button" onclick="division()"><br><br>
+    <label>Result: </label><input type="text" id="div" readonly><br><br>
+
+
+    <p class="math">Multiplication Code</p>
+
+    <input type="button" value="Multiplication" class="button" onclick="multipliation()"><br><br>
+    <label>Result: </label><input type="text" id="mul" readonly><br><br>
 </body>
 </html>
