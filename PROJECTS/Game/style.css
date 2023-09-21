@@ -1,3 +1,12 @@
 body{
     background-color: beige;
 }
+#compare{
+    background-color: green;
+}
+#button1{
+    background-color: aqua;
+}
+#button2{
+    background-color: rgb(255, 247, 0);
+}
