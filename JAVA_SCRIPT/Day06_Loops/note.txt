@@ -1,0 +1,25 @@
+1. entry control loops/ pre test loops 
+ 
+            (i.) for Loops
+
+            for(initialization, condition, Increment/Decrement){
+                // body
+                statements;
+            }
+
+
+            (ii.) While Loops
+
+            while(condition){
+                statements
+                Increment/Decrement;
+            }
+
+
+2. exit control loop/ post test loop
+
+        (i.)initialization;
+        do{
+            statements;
+            Increment/Decrement
+        }while(condition);
