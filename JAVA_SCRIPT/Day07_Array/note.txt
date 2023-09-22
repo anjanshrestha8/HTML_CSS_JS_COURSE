@@ -1,0 +1,7 @@
+Array:
+        Collection of similar data type
+
+    Decleration:
+
+            var student =["abc", "bcd","efg"];
+            console.log(student[0]);   // display abc since it in index 0.
