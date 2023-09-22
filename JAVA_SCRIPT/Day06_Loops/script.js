@@ -1,12 +1,14 @@
 
-function Multiply(){
-    var a= document.getElementById("field1").Value
-    var i =1;
-    var b =0;
+function Multiple(){
+    var a = document.getElementById("field").value;
+   
     a=parseInt(a);
-    document.getElementById("result").innerHTML=a;
-    // for(i =1;i<=20;i++){
-    //     b=a*i;
-    //     document.getElementById("result").innerHTML=b;
-    // }
+    var display=" ";
+    
+    for(let i =1;i<=20;i++){
+        
+        var result = a*i;
+        display+= a + " * " + i +" = "+ result+"<br>";
+        document.getElementById("result").innerHTML=display;
+    }
 }
