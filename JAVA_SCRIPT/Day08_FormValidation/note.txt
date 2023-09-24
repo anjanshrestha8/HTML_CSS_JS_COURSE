@@ -1,0 +1,2 @@
+alert("manage");
+prompt("Type Y for yes and N for No");
