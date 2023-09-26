@@ -5,13 +5,27 @@ function valid(){
 
     var regExp=/^([a-z A-z 0-9\._-]+)/;
     var regExp1 =/^([0-9]+)/;
-    if(regExp.test(username) &&  regExp1.test(phonenumber)){
-        alert("Your username is valid");
+
+    var usernameValid = regExp.test(username);
+    var phonenumberValid = regExp1.test(phonenumber);
+    if(usernameValid && phonenumberValid){
+        alert("Your user name and phone number is verified!!!!!!!!!");
         return true;
     }
     else{
-        alert("Please check our username and phone number");
-    
+        if(!usernameValid){
+            alert("Your user name is invalid !!!!!!!!");
+            document.getElementById("user").value=" ";
+            user.style.border="solid 2px Red";
+
+        }
+        else{
+            alert("Your phone number is invalid !!!!!!!!");
+            document.getElementById("phone").value=" ";
+            phone.style.border="solid 2px Red";
+
+        }
+        
     }
 
 }
