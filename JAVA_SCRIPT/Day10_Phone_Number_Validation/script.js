@@ -8,24 +8,33 @@ function valid(){
 
     var usernameValid = regExp.test(username);
     var phonenumberValid = regExp1.test(phonenumber);
-    if(usernameValid && phonenumberValid){
-        alert("Your user name and phone number is verified!!!!!!!!!");
-        return true;
+    var a = phonenumber.length;
+    if(a>10 || a<10){
+        alert("Please check your phone number");
+        document.getElementById("phone").value=" ";
+        phone.style.border="solid 2px Red";
+    
     }
     else{
-        if(!usernameValid){
-            alert("Your user name is invalid !!!!!!!!");
-            document.getElementById("user").value=" ";
-            user.style.border="solid 2px Red";
-
+        if(usernameValid && phonenumberValid){
+            alert("Your user name and phone number is verified!!!!!!!!!");
+            return true;
         }
         else{
-            alert("Your phone number is invalid !!!!!!!!");
-            document.getElementById("phone").value=" ";
-            phone.style.border="solid 2px Red";
-
+            if(!usernameValid){
+                alert("Your user name is invalid !!!!!!!!");
+                document.getElementById("user").value=" ";
+                user.style.border="solid 2px Red";
+    
+            }
+            else{
+                alert("Your phone number is invalid !!!!!!!!");
+                document.getElementById("phone").value=" ";
+                phone.style.border="solid 2px Red";
+    
+            }
+            
         }
-        
     }
 
 }
