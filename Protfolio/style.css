@@ -1,4 +1,6 @@
-
+p{
+    text-align:initial;
+}
 img.logo{
     vertical-align: sub;
     height: 25px;
@@ -40,13 +42,18 @@ button:hover{
 }
 p.white{
     color: white;
+    margin: 20px;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 img{
     height: 300px;
     width: 200px;
-    
-    
+    /* float: right; */
+    display: -webkit-box;
+    margin-left: auto;
+}
+span.red{
+    color:rgb(232, 38, 93);
+    font-size: 25px;
 }
