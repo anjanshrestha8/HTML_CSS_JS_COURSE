@@ -13,6 +13,6 @@ tr,td{
     padding: 10,20,30,40;
 }
 /* style to every cell in table */
-td.a{
+.a{
     background-color: rgb(255, 115, 0);
 }

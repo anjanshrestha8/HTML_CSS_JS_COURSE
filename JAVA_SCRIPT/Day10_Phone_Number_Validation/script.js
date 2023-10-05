@@ -3,7 +3,7 @@ function valid(){
     var username = document.getElementById("user").value;
     var phonenumber = document.getElementById("phone").value;
 
-    var regExp=/^([a-z A-z 0-9\._-]+)/;
+    var regExp=/^([a-z A-z 0-9\._-]+)$/;
     var regExp1 =/^([0-9]+)/;
 
     var usernameValid = regExp.test(username);
