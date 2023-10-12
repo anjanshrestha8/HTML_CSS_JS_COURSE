@@ -7,3 +7,14 @@ Regular Expression
 * = 0 or more
 + = 1 or more
 ? = 0 or 1
+
+
+[? = * A-z].  // euta aaunai paryo positive loop forward
+[!? = * A-z].  // neagtive loop forward
+[^a-z]   // no lower case
+
+\d =[0-9]
+\w=[A-Z a-z 0-9
+
+
+phone number = [9][0-9] + {9}
