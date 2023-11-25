@@ -48,12 +48,12 @@ p.white{
 }
 img{
     height: 300px;
-    width: 200px;
+    width: 300px;
     /* float: right; */
     display: -webkit-box;
     margin-left: auto;
 }
 span.red{
-    color:rgb(232, 38, 93);
-    font-size: 25px;
+    color:rgb(232, 38, 80);
+    font-size: 50px;
 }
